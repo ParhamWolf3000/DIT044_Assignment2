@@ -122,7 +122,7 @@ class Company extends Operations {
         new Employee(ID, name, grossSalary, null, null, null, null);
     }
 
-    public Employee retrieveEmployee(String ID) {
+    public int retrieveEmployee(String ID) {
         for (int i; i < employees.size(); i++) {
             Employee currentEmployee = employees.get(i);
             String currentID = currentEmployee.getID();
