@@ -220,6 +220,7 @@ class Company extends Operations {
             double netSalary = netSalary(employee);
             employee.setNetSalary(netSalary);
             employees.add(employee);
+            System.out.println("Employee " + ID + " was registered successfully.");
 
         }
     }
